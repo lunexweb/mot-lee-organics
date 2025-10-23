@@ -57,6 +57,17 @@ export const Footer = () => {
 
         <div className="border-t mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-muted-foreground">
           <p>&copy; {new Date().getFullYear()} Mot-Lee Organics. All rights reserved.</p>
+          <p className="mt-2">
+            Built by{' '}
+            <a 
+              href="https://www.lunexweb.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary hover:text-primary/80 transition-colors font-medium"
+            >
+              Lunexweb
+            </a>
+          </p>
         </div>
       </div>
     </footer>
