@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import { Facebook, Instagram, Mail, Phone } from 'lucide-react';
 
+// Footer component with Lunexweb credit
+
 export const Footer = () => {
   return (
     <footer className="border-t bg-muted/30 overflow-x-hidden">
